@@ -15,6 +15,10 @@
 		DA5556BC1F496AAF00D83571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5556BA1F496AAF00D83571 /* LaunchScreen.storyboard */; };
 		DA5556C71F496AAF00D83571 /* CJLightViewContrillerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5556C61F496AAF00D83571 /* CJLightViewContrillerTests.m */; };
 		DA5556D21F496AAF00D83571 /* CJLightViewContrillerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5556D11F496AAF00D83571 /* CJLightViewContrillerUITests.m */; };
+		DA5556E11F496B7E00D83571 /* CJDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5556E01F496B7E00D83571 /* CJDataSource.m */; };
+		DA5556E71F49734E00D83571 /* CJTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5556E61F49734E00D83571 /* CJTableViewCell.m */; };
+		DA5556EA1F497E8900D83571 /* CJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5556E91F497E8900D83571 /* CJViewController.m */; };
+		DA5556ED1F497F7C00D83571 /* CJTableViewCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5556EC1F497F7C00D83571 /* CJTableViewCell2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		DA5556CD1F496AAF00D83571 /* CJLightViewContrillerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CJLightViewContrillerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5556D11F496AAF00D83571 /* CJLightViewContrillerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJLightViewContrillerUITests.m; sourceTree = "<group>"; };
 		DA5556D31F496AAF00D83571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA5556DF1F496B7E00D83571 /* CJDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJDataSource.h; sourceTree = "<group>"; };
+		DA5556E01F496B7E00D83571 /* CJDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJDataSource.m; sourceTree = "<group>"; };
+		DA5556E51F49734E00D83571 /* CJTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJTableViewCell.h; sourceTree = "<group>"; };
+		DA5556E61F49734E00D83571 /* CJTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJTableViewCell.m; sourceTree = "<group>"; };
+		DA5556E81F497E8900D83571 /* CJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJViewController.h; sourceTree = "<group>"; };
+		DA5556E91F497E8900D83571 /* CJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJViewController.m; sourceTree = "<group>"; };
+		DA5556EB1F497F7C00D83571 /* CJTableViewCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJTableViewCell2.h; sourceTree = "<group>"; };
+		DA5556EC1F497F7C00D83571 /* CJTableViewCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJTableViewCell2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,14 @@
 				DA5556B01F496AAF00D83571 /* AppDelegate.m */,
 				DA5556B21F496AAF00D83571 /* ViewController.h */,
 				DA5556B31F496AAF00D83571 /* ViewController.m */,
+				DA5556E81F497E8900D83571 /* CJViewController.h */,
+				DA5556E91F497E8900D83571 /* CJViewController.m */,
+				DA5556DF1F496B7E00D83571 /* CJDataSource.h */,
+				DA5556E01F496B7E00D83571 /* CJDataSource.m */,
+				DA5556E51F49734E00D83571 /* CJTableViewCell.h */,
+				DA5556E61F49734E00D83571 /* CJTableViewCell.m */,
+				DA5556EB1F497F7C00D83571 /* CJTableViewCell2.h */,
+				DA5556EC1F497F7C00D83571 /* CJTableViewCell2.m */,
 				DA5556B51F496AAF00D83571 /* Main.storyboard */,
 				DA5556B81F496AAF00D83571 /* Assets.xcassets */,
 				DA5556BA1F496AAF00D83571 /* LaunchScreen.storyboard */,
@@ -273,8 +293,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA5556B41F496AAF00D83571 /* ViewController.m in Sources */,
+				DA5556E11F496B7E00D83571 /* CJDataSource.m in Sources */,
+				DA5556ED1F497F7C00D83571 /* CJTableViewCell2.m in Sources */,
 				DA5556B11F496AAF00D83571 /* AppDelegate.m in Sources */,
 				DA5556AE1F496AAF00D83571 /* main.m in Sources */,
+				DA5556E71F49734E00D83571 /* CJTableViewCell.m in Sources */,
+				DA5556EA1F497E8900D83571 /* CJViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

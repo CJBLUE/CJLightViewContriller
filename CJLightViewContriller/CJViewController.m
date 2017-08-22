@@ -32,7 +32,7 @@ static NSString *const reuse = @"reuse";
     };
     // 点击事件回调
     __weak typeof(self) weakSelf = self;
-    self.dataSource.rClickBlock = ^(NSString *data){
+    self.dataSource.rClickBlock = ^(id data){
         NSLog(@"点击CJViewController的cell");
         // 点击返回上一页面
         [weakSelf dismissViewControllerAnimated:YES completion:nil];

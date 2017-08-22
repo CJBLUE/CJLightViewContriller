@@ -34,7 +34,7 @@ static NSString *const reuse = @"reuse";
     };
     // 点击事件回调
     __weak typeof(self) wakSelf = self;
-    self.dataSource.rClickBlock = ^(NSString *data){
+    self.dataSource.rClickBlock = ^(id data){
         // 跳转到另一个控制器，用同样的方式创建一个tableview，换一个自定义的cell--CJTableViewCell2，验证是否能重用DataSource
         CJViewController *VC = [CJViewController new];
         [wakSelf presentViewController:VC animated:YES completion:nil];

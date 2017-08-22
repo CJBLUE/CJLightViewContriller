@@ -8,10 +8,10 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-// 返回cell和数据，这里数据类型看数组里装的是什么类型，这里是NSString
-typedef void(^returnCell)(id cell, NSString *data);
-// 返回点击cell的数据，类型同上，不需要数据就不写返回值
-typedef void(^returnClick)(NSString *data);
+// 返回cell和数据
+typedef void(^returnCell)(id cell, id data);
+// 返回点击cell的数据
+typedef void(^returnClick)(id data);
 
 @interface CJDataSource : NSObject <UITableViewDataSource, UITableViewDelegate>
 // 返回cell
